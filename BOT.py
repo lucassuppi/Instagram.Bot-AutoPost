@@ -8,10 +8,7 @@ except:
     
 bot = Bot ()
 
-USER = ('Usuario')
-PASS = ('Senha')
-
-bot.login(username = (USER), password = (PASS))
+bot.login(username = (YOURUSER), password = (YOURPASS))
 
 os.chdir("images")
 for file in glob.glob("*.jpg"):
