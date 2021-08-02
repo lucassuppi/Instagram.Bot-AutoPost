@@ -8,8 +8,8 @@ except:
     
 bot = Bot ()
 
-USER = ('aa')
-PASS = ('aa')
+USER = ('Usuario')
+PASS = ('Senha')
 
 bot.login(username = (USER), password = (PASS))
 
