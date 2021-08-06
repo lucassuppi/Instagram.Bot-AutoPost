@@ -14,3 +14,5 @@ os.chdir("images")
 for file in glob.glob("*.jpg"):
 	bot.upload_photo(file, caption = "#instagram #instagood #love #like #follow #photography #photooftheday #instadaily #likeforlikes #picoftheday #fashion #bhfyp #beautiful #instalike #me #likes #followforfollowback #smile #followme #myself #art #photo #happy #style #likeforfollow #life #l #nature #followers #bhfyp")
 						^ # aqui é a descrição da foto #
+						# se der erro ao iniciar exclua a pasta CONFIG manualmente # 
+						# o bot tem dias que da erro de muitas tentativas então 98% dos dias funciona e outros não #
